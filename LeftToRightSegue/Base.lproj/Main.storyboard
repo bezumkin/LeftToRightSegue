@@ -50,12 +50,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="sFi-C9-50Y">
-                        <barButtonItem key="leftBarButtonItem" title="Clear" id="xxV-IJ-mhp">
-                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <connections>
-                                <segue destination="U5M-Qk-4Lw" kind="custom" identifier="FastSegue" customClass="FastSegue" id="2RD-WR-8ey"/>
-                            </connections>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="Home" id="VxM-NA-W5U">
                             <connections>
                                 <segue destination="U5M-Qk-4Lw" kind="show" identifier="NormalSegue" id="m18-yD-BVz"/>
@@ -63,6 +57,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="U5M-Qk-4Lw" kind="custom" identifier="FastSegue" customClass="FastSegue" id="h4q-IJ-IDT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohe-eV-DHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,6 +112,6 @@
         <image name="Info" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2RD-WR-8ey"/>
+        <segue reference="h4q-IJ-IDT"/>
     </inferredMetricsTieBreakers>
 </document>
