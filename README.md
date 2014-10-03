@@ -8,5 +8,6 @@ The main idea is to use the **standard** show segue and his invisible activate w
 
 Once again - it is just a trick, but working good!
 
-
-See in action http://www.youtube.com/watch?v=Hs_CDUJGWcM
+See in action
+* First example with blank views http://youtu.be/Hs_CDUJGWcM
+* Second example with tableViews http://youtu.be/59-Xiol17YY
