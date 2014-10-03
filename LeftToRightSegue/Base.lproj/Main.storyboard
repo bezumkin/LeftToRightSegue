@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j5e-G2-agp">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Item-->
@@ -34,7 +35,19 @@
                     <view key="view" contentMode="scaleToFill" id="P3c-9q-jvU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="leu-ke-Ato">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="leu-ke-Ato" secondAttribute="trailing" id="FkU-59-r9p"/>
+                            <constraint firstItem="leu-ke-Ato" firstAttribute="leading" secondItem="P3c-9q-jvU" secondAttribute="leadingMargin" id="V4Y-96-eZS"/>
+                            <constraint firstItem="leu-ke-Ato" firstAttribute="top" secondItem="P3c-9q-jvU" secondAttribute="topMargin" id="kL9-Ol-cFm"/>
+                            <constraint firstItem="leu-ke-Ato" firstAttribute="bottom" secondItem="P3c-9q-jvU" secondAttribute="bottomMargin" id="nUm-bL-KJo"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="sFi-C9-50Y">
                         <barButtonItem key="leftBarButtonItem" title="Clear" id="xxV-IJ-mhp">
@@ -66,7 +79,19 @@
                     <view key="view" contentMode="scaleToFill" id="z8k-qL-DzA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uyg-v0-Gx0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uyg-v0-Gx0" firstAttribute="bottom" secondItem="z8k-qL-DzA" secondAttribute="bottomMargin" id="4Vk-El-DxP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uyg-v0-Gx0" secondAttribute="trailing" id="OQh-Nu-aiq"/>
+                            <constraint firstItem="uyg-v0-Gx0" firstAttribute="top" secondItem="z8k-qL-DzA" secondAttribute="topMargin" id="e9t-ZG-3hu"/>
+                            <constraint firstItem="uyg-v0-Gx0" firstAttribute="leading" secondItem="z8k-qL-DzA" secondAttribute="leadingMargin" id="qh5-aE-XKJ"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Main" id="EOx-hC-u4U">
