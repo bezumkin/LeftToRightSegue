@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5114748019DE8655005DD564 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5114747F19DE8655005DD564 /* Launch Screen.xib */; };
 		511EA6C119DE74A200D8CB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EA6C019DE74A200D8CB73 /* main.m */; };
 		511EA6C419DE74A200D8CB73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EA6C319DE74A200D8CB73 /* AppDelegate.m */; };
 		511EA6CA19DE74A200D8CB73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511EA6C819DE74A200D8CB73 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5114747F19DE8655005DD564 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		511EA6BB19DE74A200D8CB73 /* LeftToRightSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftToRightSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		511EA6BF19DE74A200D8CB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511EA6C019DE74A200D8CB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				511EA6C319DE74A200D8CB73 /* AppDelegate.m */,
 				511EA6BF19DE74A200D8CB73 /* Info.plist */,
 				511EA6C019DE74A200D8CB73 /* main.m */,
+				5114747F19DE8655005DD564 /* Launch Screen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				511EA6CA19DE74A200D8CB73 /* Main.storyboard in Resources */,
 				511EA6CC19DE74A200D8CB73 /* Images.xcassets in Resources */,
+				5114748019DE8655005DD564 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
